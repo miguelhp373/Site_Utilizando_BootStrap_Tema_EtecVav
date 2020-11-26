@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/carrousel.css">
     <link rel="stylesheet" href="styles/news.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -19,8 +20,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 </head>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,400;1,600&display=swap');
     html {
         scroll-behavior: smooth;
+        
+    }
+
+    *{
+        
+        font-family: 'Nunito', sans-serif;
     }
 
     .arrow {
@@ -44,6 +52,9 @@
         font-size: 25px;
         line-height: 39px;
         cursor: pointer;
+    }
+    .history, .location{
+        margin-left: auto;
     }
 </style>
 
@@ -207,12 +218,12 @@
         </div>
         <!--Fim Botao topo-->
         <br><br>
-        <div class="container-fluid">
+        <div class="container-fluid history">
             <div class="text-align-start">
                 <h1>História</h1>
             </div>
             <br>
-            <div class="row-fluid">
+            <div class="row-fluid justify-content-center text-history history">
                 A ETEC VASCO ANTONIO VENCHIARUTTI tem como patrono o arquiteto Vasco Antonio Venchiarutti o qual tinha o
                 sonho de criar em Jundiaí uma escola para formação de profissionais da Construção Civil. Ele, então
                 Prefeito Municipal, promulgou a Lei nº 624 de 15 de março de 1958 instituindo a Escola Técnica de
@@ -224,7 +235,7 @@
                 </a>
 
                 <div class="collapse" id="collapseExample">
-                    <div class="card-fluid card-body">
+                    <div class="card-fluid card-body text-history history">
                         Num gesto altruísta, a Família Storani, doou área de 200.000m² junto ao trevo do então 2º G.O.
                         155, parte da Fazenda Nossa Senhora do Desterro para a instalação da Escola que, em janeiro de
                         1961, já na administração do Prefeito Dr. Omair Zomignani, teve lançada a sua pedra fundamental.
@@ -258,7 +269,7 @@
         </div>
         <br><br>
         <br><br>
-        <div class="container-fluid footer">
+        <div class="container-fluid location">
             <div class="text-align-start">
                 <h1>Localização</h1>
             </div>
