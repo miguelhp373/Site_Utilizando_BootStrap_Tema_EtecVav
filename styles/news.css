@@ -1,11 +1,27 @@
 .container-news{
-    width: 50%;
-    height: 300px;
+    width: auto;
+    height: auto;
     background-color: #ebebeb;
     margin-left: 10px;
     border-radius: 17px
 }
 
-.text-title h3{
-    margin-top: 8px;
+.container-news:hover{
+    box-shadow: 0 0 6px 3px #dddddd;
+}
+
+.container-news h3{
+    margin-top:20px;
+}
+
+#btn-news{
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+    
+    background-color:#a3130d;
+}
+
+#btn-news:hover{
+    background-color:#921209;
 }

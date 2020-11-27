@@ -39,3 +39,7 @@
 #gallery-item:hover{
     color: yellow;
 }
+
+.navbar-brand:hover{
+    border: 1px dashed black;
+}
